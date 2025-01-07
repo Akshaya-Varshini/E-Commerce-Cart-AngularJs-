@@ -127,12 +127,28 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Pay</button>
+        <button class="btn btn-primary btn-sm"><div class="badge badge-danger px-3 rounded-pill font-weight-normal" data-bs-toggle="modal" data-bs-target="#exampleModalpay" ng-click="add_pay(product)">Pay</div></button>
       </div>
     </div>
   </div>
 </div>
       
+<!--Heyyy the modal for pay-->
+<div class="modal fade" id="exampleModalpay" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+  <div class="modal-dialog" >
+    <div class="modal-content" >
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">This product is yours now 🎉</h1>
+        <h4 class="modal-title fs-5" id="exampleModalLabel">Amount paid !!!</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
             <!--<div class = "pull-right col-md-6">
               <div class = "panel panel-primary">
                 <div class = "panel-heading">
